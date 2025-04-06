@@ -1,5 +1,14 @@
 ## Hi there 👋
 
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abdulk-P/Abdulk-P/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abdulk-P/Abdulk-P/output/github-snake.svg" />
+  <img alt="SudoKMaar's GitHub Contribution Heatmap" src="https://raw.githubusercontent.com/Abdulk-P/Abdulk-P/output/github-snake.svg" />
+</picture>
+
+
+
 ![DSA Stats](https://github.com/Abdulk-P/Abdulk-P/blob/dsaStats/dsa-stats.svg)
 
 
