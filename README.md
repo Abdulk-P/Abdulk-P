@@ -2,7 +2,6 @@
 
 ![DSA Stats](https://github.com/Abdulk-P/Abdulk-P/blob/dsaStats/dsa-stats.svg)
 
-<img src="https://github.com/Abdulk-P/Abdulk-P/blob/dsaStats/dsa-stats.svg" width="47%">
 
 
 <!--
