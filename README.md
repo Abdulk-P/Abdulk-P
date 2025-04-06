@@ -1,10 +1,6 @@
 ## Hi there 👋
 
-<p align="center">
-    
-    <img src="https://raw.githubusercontent.com/Abdulk-P/Abdulk-P/main/images/header.svg" alt="Its me Abdulkhadar Patel 💻 Full-Stack Developer">
-  </p>
-  <h2 align="center">Crafting lines of code and conquering virtual worlds </h2>
+
 
 
 
