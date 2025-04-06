@@ -1,5 +1,10 @@
 ## Hi there 👋
 
+![DSA Stats](https://github.com/Abdulk-P/Abdulk-P/blob/dsaStats/dsa-stats.svg)
+
+<img src="https://github.com/Abdulk-P/Abdulk-P/blob/dsaStats/dsa-stats.svg" width="47%">
+
+
 <!--
 **Abdulk-P/Abdulk-P** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
