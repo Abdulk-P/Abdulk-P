@@ -5,6 +5,7 @@
 
 
 
+[![DSA Stats 🔒](https://img.shields.io/badge/DSA%20Stats-Private-green?style=for-the-badge)](https://codolio.in/profile/Kmaar)
 
 
 
