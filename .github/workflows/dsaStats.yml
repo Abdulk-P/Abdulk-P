@@ -22,15 +22,6 @@ jobs:
         run: |
           curl -o dsa-stats.svg https://dsastats.vercel.app/api/codolio/abd
 
-      - name: Add Codolio Link to SVG (experimental)
-        run: |
-          sed -i '/<\/svg>/i \
-          <a xlink:href="https://codolio.in/profile/Kmaar">\
-            <rect x="20" y="100" width="160" height="40" fill="#007ACC" rx="6" ry="6"/>\n\
-            <text x="100" y="125" font-size="14" text-anchor="middle" fill="white" font-family="Arial">\
-              View Codolio Profile\
-            </text>\n\
-          </a>' dsa-stats.svg
 
       - name: Force Commit changes
         run: |
