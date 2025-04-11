@@ -8,7 +8,7 @@ on:
   push:
     branches:
       - main
-  schedule: # execute every 24 hours
+  schedule:
     - cron: "0 0 * * *"
 
 jobs:
@@ -20,29 +20,22 @@ jobs:
 
       - name: Fetch Stats and Save SVG
         run: |
-          # Fetch the latest stats card as an SVG
           curl -o dsa-stats.svg https://dsastats.vercel.app/api/codolio/Kmaar
+
+      - name: Add Codolio Link to SVG (experimental)
+        run: |
+          sed -i '/<\/svg>/i \
+          <a xlink:href="https://codolio.in/profile/Kmaar">\
+            <rect x="20" y="100" width="160" height="40" fill="#007ACC" rx="6" ry="6"/>\n\
+            <text x="100" y="125" font-size="14" text-anchor="middle" fill="white" font-family="Arial">\
+              View Codolio Profile\
+            </text>\n\
+          </a>' dsa-stats.svg
 
       - name: Force Commit changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-          # Add a timestamp to the commit message to ensure a new commit is created
           git add dsa-stats.svg
           git commit -m "Update stats card $(date +'%Y-%m-%d %H:%M:%S')"
-
-          - name: Add Codolio Link to SVG
-          run: |
-          # Insert a clickable link in the SVG
-          sed -i '/<\/svg>/i \
-          <a xlink:href="https://codolio.in/profile/Kmaar" target="_blank">\
-            <rect x="20" y="100" width="160" height="40" fill="#007ACC" rx="6" ry="6"/>\
-            <text x="100" y="125" font-size="14" text-anchor="middle" fill="white" font-family="Arial">\
-              View Codolio Profile\
-            </text>\
-          </a>' dsa-stats.svg
-
-
-          # Push the changes to the remote repository
           git push --force origin HEAD:dsaStats
