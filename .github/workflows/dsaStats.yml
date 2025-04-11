@@ -20,7 +20,7 @@ jobs:
 
       - name: Fetch Stats and Save SVG
         run: |
-          curl -o dsa-stats.svg https://dsastats.vercel.app/api/codolio/Kmaar
+          curl -o dsa-stats.svg https://dsastats.vercel.app/api/codolio/abd
 
       - name: Add Codolio Link to SVG (experimental)
         run: |
