@@ -5,7 +5,7 @@
 
 
 
-[![Codolio Profile](https://img.shields.io/badge/View%20My%20Codolio%20Profile-%23007ACC?style=for-the-badge&logo=codeforces&logoColor=white)](https://codolio.com/profile/Kmaar)
+[![Codolio Profile](https://img.shields.io/badge/View%20My%20Codolio%20Profile-%23007ACC?style=for-the-badge&logo=codeforces&logoColor=white)](https://codolio.com/profile/abd)
 
 
 
